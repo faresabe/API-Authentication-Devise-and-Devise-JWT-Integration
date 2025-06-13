@@ -129,6 +129,8 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.12.2)
+    jsonapi-serializer (2.2.0)
+      activesupport (>= 4.2)
     jwt (2.10.1)
       base64
     kamal (2.6.1)
@@ -331,6 +333,7 @@ DEPENDENCIES
   debug
   devise
   devise-jwt
+  jsonapi-serializer
   kamal
   pg (~> 1.1)
   puma (>= 5.0)
